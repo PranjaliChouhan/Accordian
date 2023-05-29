@@ -24,7 +24,7 @@ return(
     <>
     <div className="container">
         <div>
-        <span className="accordian_title">Inboundsys interview questions</span>
+        <span className="accordian_title"> Interview questions</span>
         <h1>lets answer</h1>
         </div>
         <div className="accordian_faq">
