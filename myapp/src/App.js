@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useState } from "react";
 const dataCollection=[
@@ -22,9 +23,10 @@ function App(){
     }
 return(
     <>
+     <div className="container-outer">
     <div className="container">
         <div>
-        <span className="accordian_title"> Interview questions</span>
+        <span className="accordian_title"> Do you know React?</span>
         <h1>lets answer</h1>
         </div>
         <div className="accordian_faq">
@@ -58,6 +60,7 @@ return(
             }
 
         </div>
+    </div>
     </div>
     </>
 );

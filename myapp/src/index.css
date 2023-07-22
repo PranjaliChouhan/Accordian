@@ -1,8 +1,34 @@
+body{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 100%;
+
+}
+.container{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  cursor: pointer;
+  background-color:transparent;
+              
+}
+
 h1{
   font: size 42px;
-  color:black;
+  color:rgb(46, 124, 170);
   margin:0px;
   margin-bottom:30px;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .accordian-simple>.active{
   display:block;
@@ -18,9 +44,13 @@ h1{
   cursor:pointer;
 }
 .accordian_title{
-  color:rgb(7, 53, 53);
+  color:rgb(46, 124, 170);
   padding-bottom: 20px;
   font-weight:500;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .accordian_heading{
   display: flex;
